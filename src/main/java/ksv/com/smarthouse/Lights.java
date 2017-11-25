@@ -6,6 +6,7 @@ import java.util.TimerTask;
 public abstract class Lights extends SmartHouse {
 
     int sensorValue;
+    String test;
 
     Lights() {
         sensorValue = newValueOfLights();
